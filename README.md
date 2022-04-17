@@ -1,2 +1,2 @@
 # Algorithms
-These are my notes and codes (in Python) for everything related to algorithms. 
+These are my notes and codes (in C++) for everything related to algorithms. 

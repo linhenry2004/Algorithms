@@ -69,3 +69,19 @@ def fib(n):
 
 ## How to solve almost any DP problem: 
 Reminder: Directed Acyclic Graph (DAG) is a directed graph that doesn't contain any cycle. 
+
+What can be solved by DP? 
+1. Shortest/Longest
+2. Minimum/Maximum
+
+To find recussence relation: 
+1. Understand the problem
+2. Imagine that someone gave you the solutions to all the subproblems
+3. Find a way to combine them to solve the initial problem
+4. Find the smallest possible subproblem(s)
+
+To implement memorization: 
+1. Add a parameter lookup and code to initialize it
+2. Determine the key of your subproblem
+3. Add a base case to check if you didn't solve the actual subproblem before
+4. For each recursion case, store the result in lookup[key] before returning
